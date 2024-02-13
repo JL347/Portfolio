@@ -11,16 +11,11 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import logoRequis from '@/images/logos/requis_logo_no_wordmark.png'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import tmobilePark from '@/images/photos/TmobilePark.jpg'
+import mountRainier from '@/images/photos/MountRainier.jpg'
+import kerryPark from '@/images/photos/KerryPark.jpeg'
+import villa from '@/images/photos/VillaEstrellaMar.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -224,7 +219,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[mountRainier, tmobilePark, kerryPark, villa].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -261,17 +256,20 @@ export default async function Home() {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="#"
+              href="https://www.instagram.com/jlemke34/"
+              target='_blank'
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href="https://github.com/JL347"
+              target='_blank'
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/jaredlemke/"
+              target='_blank'
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
