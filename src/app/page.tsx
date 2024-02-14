@@ -105,7 +105,7 @@ function Resume() {
       </ol>
       <div className="mt-6 flex justify-end">
         <Button
-          href="/JaredLemkeResume2023.pdf"
+          href="/JaredLemkeResume2024.pdf"
           target='_blank'
           variant='secondary'
         >
