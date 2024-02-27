@@ -9,7 +9,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoRequis from '@/images/logos/requis_logo_no_wordmark.png'
+import logoRequis from '@/images/logos/requis.png'
 import tmobilePark from '@/images/photos/TmobilePark.jpg'
 import mountRainier from '@/images/photos/MountRainier.jpg'
 import kerryPark from '@/images/photos/KerryPark.jpeg'

@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoRequis from '@/images/logos/requis_logo_no_wordmark.png'
+import logoRequis from '@/images/logos/requis.png'
+import logoEliteFantasy from '@/images/logos/elitefantasy.png'
 
 const projects = [
   {
@@ -18,8 +18,8 @@ const projects = [
     name: 'Elite Fantasy',
     description:
       'The all-in-one fantasy sports app - for the elite.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    link: { href: '#', label: 'Coming soon!' },
+    logo: logoEliteFantasy,
   },
 ]
 
@@ -44,8 +44,7 @@ export default function Projects() {
     <SimpleLayout
       title="Things I’ve been working on."
       intro="While my current work consumes most of my time, 
-      I still find time to work on a couple of side projects. 
-      Here are a few of them."
+      I still find time to work on a couple of side projects."
     >
       <ul
         role="list"
