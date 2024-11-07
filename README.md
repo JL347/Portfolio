@@ -19,7 +19,7 @@ This website showcases my skills, projects, and experiences as a Software Engine
 - Vercel
 
 ## Domain:
-(https://portfolio-jl347.vercel.app) (working on official domain)
+https://portfolio-jl347s-projects.vercel.app/
 
 ## Usage:
 Feel free to explore the site and check out my work. If you have any feedback or inquiries, don't hesitate to reach out to me via the contact form or my social media profiles.
