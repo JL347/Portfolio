@@ -10,6 +10,7 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 import logoRequis from '@/images/logos/requis.png'
+import logoHoursLogger from '@/images/logos/hourslogger.png'
 import tmobilePark from '@/images/photos/TmobilePark.jpg'
 import mountRainier from '@/images/photos/MountRainier.jpg'
 import kerryPark from '@/images/photos/KerryPark.jpeg'
@@ -84,9 +85,19 @@ function Resume() {
       company: 'Requis',
       title: 'Software Engineer',
       logo: logoRequis,
-      start: '2019',
+      start: '11/2019',
       end: {
-        label: 'Present',
+        label: '11/2024',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
+      company: 'HoursLogger',
+      title: 'Full Stack Web Developer Intern',
+      logo: logoHoursLogger,
+      start: '08/2019',
+      end: {
+        label: '10/2019',
         dateTime: new Date().getFullYear().toString(),
       },
     },
@@ -105,7 +116,7 @@ function Resume() {
       </ol>
       <div className="mt-6 flex justify-end">
         <Button
-          href="/JaredLemkeResume2024.pdf"
+          href="/JaredLemkeEngineerResume2024.pdf"
           target='_blank'
           variant='secondary'
         >
@@ -154,8 +165,8 @@ export default async function Home() {
             Software Engineer, sports fanatic, and travel enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Jared, a software engineer specializing in frontend development based in Seattle, Washington.
-            I’m an avid sports fan (Go Hawks!), love the outdoors and am always down for a trip.
+            I’m Jared, a Software Engineer specializing in Frontend development based in Seattle, Washington.
+            I’m an avid sports fan (Go Hawks!), love the outdoors and am always down for a weekend getaway.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
