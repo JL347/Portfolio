@@ -7,7 +7,6 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  XIcon,
 } from '@/components/SocialIcons'
 import logoRequis from '@/images/logos/requis.png'
 import logoHoursLogger from '@/images/logos/hourslogger.png'

@@ -1,25 +1,24 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
-
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoRequis from '@/images/logos/requis.png'
-import logoEliteFantasy from '@/images/logos/elitefantasy.png'
+import logoExpenseTracker from '@/images/logos/expensetracker.png'
 
 const projects = [
   {
     name: 'Requis',
     description:
       'Host your entire supply chain on one easy‑to‑use platform.',
-    link: { href: 'https://requis.com/', label: 'requis.com' },
+    link: { href: 'https://supplychain.requis.com/', label: 'requis.com' },
     logo: logoRequis,
   },
   {
-    name: 'Elite Fantasy',
+    name: 'Expense Tracker',
     description:
-      'The all-in-one fantasy sports app - for the elite.',
-    link: { href: '#', label: 'Coming soon!' },
-    logo: logoEliteFantasy,
+      'Track your expenses and manage your budget.',
+    link: { href: 'https://expense-tracker-frontend-flax.vercel.app/dashboard', label: 'expensetracker.com' },
+    logo: logoExpenseTracker,
   },
 ]
 
@@ -43,8 +42,8 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Things I’ve been working on."
-      intro="While my current work consumes most of my time, 
-      I still find time to work on a couple of side projects."
+      intro="While my previous work consumed most of my time, 
+      I still find some time to work on a couple of side projects."
     >
       <ul
         role="list"
